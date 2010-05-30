@@ -1,6 +1,6 @@
 package YAML::Tiny::LikeJSON;
 BEGIN {
-  $YAML::Tiny::LikeJSON::VERSION = '0.0010';
+  $YAML::Tiny::LikeJSON::VERSION = '0.0011';
 }
 # ABSTRACT: Use YAML::Tiny like JSON
 
@@ -41,7 +41,7 @@ YAML::Tiny::LikeJSON - Use YAML::Tiny like JSON
 
 =head1 VERSION
 
-version 0.0010
+version 0.0011
 
 =head1 SYNOPSIS
 
@@ -84,7 +84,7 @@ It will only deal with one YAML document at a time, so if you try to decode more
 
 =head1 USAGE
 
-=head1 $yaml = YAML::Tiny::LikeJSON->new
+=head2 $yaml = YAML::Tiny::LikeJSON->new
 
 Create a handle for invoking C<encode>/C<decode>
 

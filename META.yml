@@ -13,5 +13,6 @@ meta-spec:
   version: 1.4
 name: YAML-Tiny-LikeJSON
 recommends: {}
-requires: {}
-version: 0.0010
+requires:
+  YAML::Tiny: 0
+version: 0.0011

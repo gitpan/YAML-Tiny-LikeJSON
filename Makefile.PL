@@ -23,8 +23,10 @@ my %WriteMakefileArgs = (
                                            },
                        'ABSTRACT' => 'Use YAML::Tiny like JSON',
                        'EXE_FILES' => [],
-                       'VERSION' => '0.0010',
-                       'PREREQ_PM' => {},
+                       'VERSION' => '0.0011',
+                       'PREREQ_PM' => {
+                                        'YAML::Tiny' => '0'
+                                      },
                        'LICENSE' => 'perl'
                      );
 
